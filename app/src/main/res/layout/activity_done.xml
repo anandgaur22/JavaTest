@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_vertical"
+    tools:context="anandgaur.com.javanotestest.Done">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/btnGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/text_Total_Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SCORE : 0"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_Total_Questions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PASSED : 0"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/done_Progress_Bar"
+                style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_Play"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/logo"
+                android:layout_alignLeft="@+id/logo"
+                android:layout_alignStart="@+id/logo"
+                android:background="@color/white"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Play again"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:theme="@style/MyButton" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

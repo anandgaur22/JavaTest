@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_category"
+        android:title="@string/categories"
+        android:enabled="true"
+        android:icon="@drawable/ic_categories_black_24dp"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_ranking"
+        android:title="@string/rank"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_raning_24dp" />
+
+    <item
+        android:id="@+id/action_notes"
+        android:title="@string/notes"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_notes_black_24dp" />
+
+</menu>

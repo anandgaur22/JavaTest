@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">JavaNotesTest</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+
+    //Sign In Page layout
+    <string name="user_name">User Name</string>
+    <string name="sigin_password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+
+    //Sign Up page layout
+    <string name="user_name_signup">User Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+
+
+    //Navigation Bottom Menu Items
+    <string name="categories">Categories</string>
+    <string name="rank">Rank</string>
+    <string name="notes">Notes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

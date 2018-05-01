@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="MyButton" parent="AlertDialog.AppCompat.Light">
+        <item name="android:colorControlHighlight">#1CB3BC</item>
+    </style>
+</resources>
